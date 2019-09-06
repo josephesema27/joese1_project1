@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <style>
+            body {background-color: red; text-align: center;} 
+        </style>
+        
+    </head>
+    <body >
+        <img src="{{image}}"/>
+        <br />
+        <div>
+            Song Title: {{ title }} 
+        </div>
+        <br />
+        <img src="{{artist_image}}" alt="Avatar" style="width:200px" />
+        <br />
+        <!--<a href= "{{artist_link}}">Young Thug</a>-->
+        <a href= "https://genius.com/artists/Young-thug">{{ artist }}</a>
+        <fieldset>
+            <legend>Tweet:</legend>
+            {{ tweet }} 
+        </fieldset>
+    </body>
+</html>
